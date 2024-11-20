@@ -102,7 +102,7 @@ signbtn.addEventListener("click", (e) =>
 
     if(isemailvalid && isfnamevalid && ispassvalid)
     {
-        window.location.href ="../index.html";
+        window.location.href ="../dashboard.html";
         localStorage.setItem(`user-${sforminputvalue.username}`, JSON.stringify(sforminputvalue));
         console.log(sforminputvalue);
     }
@@ -182,7 +182,7 @@ loginbtn.addEventListener("click", (e) =>
     if(isinemailvalid  && isinpassvalid)
     {
         if (validateLogin()) {     
-            window.location.href ="../index.html";
+            window.location.href ="../dashboard.html";
         }
         else{
             console.log('data is fail');
