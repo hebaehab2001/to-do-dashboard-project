@@ -182,7 +182,7 @@ loginbtn.addEventListener("click", (e) =>
     if(isinemailvalid  && isinpassvalid)
     {
         if (validateLogin()) {     
-            window.location.href ="../dashboard.html";
+            window.location.href ="./dashboard.html";
         }
         else{
             console.log('data is fail');
