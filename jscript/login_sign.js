@@ -102,7 +102,7 @@ signbtn.addEventListener("click", (e) =>
 
     if(isemailvalid && isfnamevalid && ispassvalid)
     {
-        window.location.href ="../dashboard.html";
+        window.location.href ="/../dashboard.html";
         localStorage.setItem(`user-${sforminputvalue.username}`, JSON.stringify(sforminputvalue));
         console.log(sforminputvalue);
     }
